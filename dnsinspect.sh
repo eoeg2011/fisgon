@@ -12,7 +12,8 @@ else
     REPOSITORIO="dnsinspect"
 fi
 
-URL_PAGINAS="https://github.com/eoeg2011/fisgon/blob/main/paginas.txt"
+URL_PAGINAS="https://raw.githubusercontent.com/eoeg2011/fisgon/main/paginas.txt"
+
 ARCHIVO_LOCAL="$HOME/paginas.txt"
 
 # Verificar que existan las herramientas necesarias
