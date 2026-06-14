@@ -1,6 +1,6 @@
-# DNSInspect
+# FISGON (DNSInspect)
 
-DNSInspect es una herramienta ligera y automatizada en Bash diseñada para realizar auditorías de red pasivas mediante la técnica de **DNS Cache Snooping** (Reconocimiento por Espionaje de Caché DNS). 
+FISGON DNSInspect es una herramienta ligera y automatizada en Bash diseñada para realizar auditorías de red pasivas mediante la técnica de **DNS Cache Snooping** (Reconocimiento por Espionaje de Caché DNS). 
 
 La herramienta permite determinar si un servidor DNS específico tiene almacenados registros de resolución recientes para una lista predefinida de dominios, agrupando los resultados de forma clara por categorías de uso.
 
@@ -101,7 +101,7 @@ booking.com, airbnb.mx, trivago.com.mx, despegar.com.mx, expedia.mx, aeromexico.
 aliexpress.ru, taobao.com, jd.com, tmall.com, baidu.com, qq.com, weibo.com, bilibili.com, sohu.com, sina.com.cn, yandex.ru, vk.com, ok.ru, mail.ru, rambler.ru, habr.com, pixiv.net, nicovideo.jp, yahoo.co.jp, amazon.co.jp, rakuten.co.jp, naver.com, daum.net, coupang.com, tistory.com, globo.com, uol.com.br
 
 # SECCIÓN DE CONTROL TRAMPA
-paginamexicanaquenoexisteabsolutamenteenningunlado.com
+paginamexicanaquenoexisteabsolutamenteenningunlado.com (SOLO PARA VER SI ESTA FUNCIONADO NO EXISTE ASI QUE NUNCA DEVERIA PONERLA EN VERDE)
 ```
 
 ## Descargo de Responsabilidad
