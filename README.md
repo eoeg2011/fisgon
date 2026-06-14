@@ -29,7 +29,7 @@ Para descargar y ejecutar esta herramienta en tu terminal, utiliza los siguiente
 
 ```bash
 # 1. Clonar el repositorio (Reemplaza con tu usuario real)
-git clone https://github.com
+git clone https://github.com/eoeg2011/fisgon
 
 # 2. Entrar a la carpeta
 cd dnsinspect
