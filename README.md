@@ -28,7 +28,7 @@ sudo apt install dnsutils git
 Para descargar y ejecutar esta herramienta en tu terminal, utiliza los siguientes comandos:
 
 ```bash
-# 1. Clonar el repositorio (Reemplaza con tu usuario real)
+# 1. Clonar el repositorio 
 git clone https://github.com/eoeg2011/fisgon
 
 # 2. Entrar a la carpeta
