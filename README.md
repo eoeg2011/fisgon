@@ -30,7 +30,7 @@ Para descargar y ejecutar esta herramienta en tu terminal, utiliza los siguiente
 ```bash
 pkg install dnsutils curl git -y && git clone https://github.com && cd fisgon && chmod +x dnsinspect.sh
 ```
-2.DESISTALACION
+DESISTALACION
 ```bash
 rm -rf ~/fisgon
 ```
