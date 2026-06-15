@@ -2,7 +2,7 @@
 
 FISGON es una herramienta ligera y automatizada en Bash diseñada para realizar auditorías de red pasivas mediante la técnica de **DNS Cache Snooping** (Reconocimiento por Espionaje de Caché DNS). 
 
-¿Alguna vez te ha dado curiosidad saber qué páginas web se visitan en las redes de dependencias públicas, como el Senado o la Cámara de Diputados? Esta herramienta te permite descubrirlo de forma automatizada.
+¿Alguna vez te ha dado curiosidad saber qué páginas web se visitan en las redes de dependencias públicas, como el Senado o la Cámara de Diputados o Alguna institución publica empresa etc. etc.? Esta herramienta te permite descubrirlo de forma automatizada.
 
 ---
 
