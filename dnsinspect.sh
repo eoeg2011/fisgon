@@ -70,7 +70,7 @@ dnscheck_categorias() {
             echo -e "\e[1;31m[NO VISITADA]\e[0m $line"
             ((no_count++))
         fi
-    done < ~/paginas.txt
+    done < ~/fisgon/paginas.txt
 
     # 5. Impresión de estadísticas finales
     total=$((si_count + no_count))
