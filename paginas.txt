@@ -1,15 +1,14 @@
+# LISTA CREADA POR code-KxK GITHUB
 # BUSCADORES Y UTILIDADES
 google.com
 yahoo.com
 google.com.mx
 live.com
-://live.com
 microsoft.com
 wikipedia.org
 chatgpt.com
 office.com
 zoom.us
-://microsoft.com
 github.com
 gitlab.com
 bitbucket.org
@@ -40,9 +39,6 @@ pastebin.com
 cyberchef.io
 docker.com
 kubernetes.io
-://amazon.com
-://google.com
-://microsoft.com
 digitalocean.com
 linode.com
 vultr.com
@@ -73,7 +69,6 @@ proboards.com
 forocoches.com
 4chan.org
 8ch.net
-://reddit.com
 
 # BANCARIAS Y FINANZAS
 bbva.mx
@@ -121,7 +116,6 @@ apple.com
 tidal.com
 tunein.com
 claromusica.com
-://google.com
 hulu.com
 hbomax.com
 paramountplus.com
@@ -278,6 +272,7 @@ homedepot.com.mx
 walmart.com.mx
 amazon.com.mx
 aliexpress.com
+aliexpress.ru
 temu.com
 shein.com
 shopee.com.mx
@@ -300,6 +295,7 @@ mercadolibre.com.ar
 mercadolibre.cl
 mercadolibre.com.co
 mercadolibre.com.pe
+amazon.com
 
 # VIDEOJUEGOS
 roblox.com
@@ -357,7 +353,6 @@ reforma.com
 jornada.com.mx
 aristeguinoticias.com
 animalpolitico.com
-uno-tv.com
 unotv.com
 televisa.com
 tvazteca.com
@@ -415,7 +410,6 @@ freepik.com
 flaticon.com
 fontspace.com
 dafont.com
-://google.com
 myfonts.com
 1001freefonts.com
 
@@ -490,7 +484,7 @@ rutracker.org
 # ALMACENAMIENTO Y TRANSFERENCIA
 mega.nz
 mediafire.com
-://google.com
+googleusercontent.com
 dropbox.com
 wetransfer.com
 rapidgator.net
@@ -522,7 +516,6 @@ ado.com.mx
 futura.com.mx
 
 # SITIOS INTERNACIONALES VARIADOS
-aliexpress.ru
 taobao.com
 jd.com
 tmall.com
@@ -550,5 +543,5 @@ tistory.com
 globo.com
 uol.com.br
 
-# SECCIÓN DE CONTROL TRAMPA
+# SECCIÓN DE PRUEBA SIEMPRE DEVE APARECER ROJO YA QUE NO EXISTE
 paginamexicanaquenoexisteabsolutamenteenningunlado.com
