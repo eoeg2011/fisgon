@@ -27,7 +27,7 @@ dnscheck_categorias() {
 
     # 3. Resolución inteligente del DNS (FISGON AUTOMÁTICA)
     if [[ ! "$1" =~ ^[0-9]+\.[0-9]+\.[0-9]+\.[0-9]+$ ]]; then
-        echo -e "\e[1;34m[FISGON AUTOMATICA]\e[0m Buscando DNS para: $1"
+        echo -e "\e[1;34m[FISGON AUTOMATICA]\e[0m BUSCANDO DNS DE: $1"
         found=$(dig +short NS "$1" | head -n 1)
 
         if [ -z "$found" ]; then
@@ -41,13 +41,13 @@ dnscheck_categorias() {
             else
                 target_dns="$found"
             fi
-            echo -e "\e[1;32m[DNS ASIGNADO]:\e[0m $target_dns"
+            echo -e "\e[1;32m[DNS DESCUBIERTO]:\e[0m $target_dns"
         else
             echo -e "\e[1;31m[ERROR]\e[0m No se pudo hallar el DNS de $1. Usando $1 directamente..."
         fi
     fi
 
-    echo -e "\n\e[1;35m[INICIANDO ESCANEO ORGANIZADO]:\e[0m Objetivo DNS -> $target_dns\n"
+    echo -e "\n\e[1;35m[INICIANDO ESCANEO DE PAGINAS]:\e[0m Objetivo DNS -> $target_dns\n"
     si_count=0
     no_count=0
 
