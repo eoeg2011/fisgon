@@ -8,7 +8,8 @@ fi
 
 if [ -z "$1" ]; then
     echo "Uso: ./dnscheck.sh [pagina.com o IP]"
-    exit 1                                      fi
+    exit 1                                      
+fi
 
 target_dns="$1"
 if [[ ! "$1" =~ ^[0-9]+\.[0-9]+\.[0-9]+\.[0-9]+$ ]]; then
