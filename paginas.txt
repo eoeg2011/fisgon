@@ -569,5 +569,5 @@ weibo.com
 yahoo.co.jp
 yandex.ru
 
-# SECCIÓN DE PRUEBA SIEMPRE DEVE APARECER ROJO YA QUE NO EXISTE
+# SECCIÓN DE PRUEBA (SOLO PARA VER SI ESTA FUNCIONADO NO EXISTE ASI QUE NUNCA DEVERIA PONERLA EN VERDE)
 paginamexicanaquenoexisteabsolutamenteenningunlado.com
