@@ -6,9 +6,12 @@ dnscheck_categorias() {
         echo "Uso: ./dnsinspect.sh [pagina.com o IP]"
         exit 1
     fi
+    # OBTENER LA RUTA DONDE ESTÁ EL SCRIPT
+    SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+    PAGINAS_FILE="$SCRIPT_DIR/paginas.txt"
 
     # 2. Validación del archivo de páginas
-    if [ ! -f ~/paginas.txt ]; then
+    if [ ! -f "$PAGINAS_FILE" ]; then
         echo "Error: Crea primero el archivo ~/paginas.txt"
         exit 1
     fi
@@ -22,9 +25,9 @@ dnscheck_categorias() {
     echo -e "\e[1;33m========================================\e[0m\n"
     target_dns="$1"
 
-    # 3. Resolución inteligente del DNS (FOCA AUTOMÁTICA)
+    # 3. Resolución inteligente del DNS (FISGON AUTOMÁTICA)
     if [[ ! "$1" =~ ^[0-9]+\.[0-9]+\.[0-9]+\.[0-9]+$ ]]; then
-        echo -e "\e[1;34m[FOCA AUTOMATICA]\e[0m Buscando DNS para: $1"
+        echo -e "\e[1;34m[FISGON AUTOMATICA]\e[0m Buscando DNS para: $1"
         found=$(dig +short NS "$1" | head -n 1)
 
         if [ -z "$found" ]; then
@@ -70,7 +73,7 @@ dnscheck_categorias() {
             echo -e "\e[1;31m[NO VISITADA]\e[0m $line"
             ((no_count++))
         fi
-    done < ~/paginas.txt
+    done < "$PAGINAS_FILE"
 
     # 5. Impresión de estadísticas finales
     total=$((si_count + no_count))
