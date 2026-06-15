@@ -125,5 +125,17 @@ paginamexicanaquenoexisteabsolutamenteenningunlado.com
 ...............
 ```
 
-## Descargo de Responsabilidad
-Este software ha sido desarrollado estrictamente con fines educativos, de investigación y para la ejecución de pruebas de penetración autorizadas. El uso de esta herramienta contra infraestructuras sin el consentimiento previo y explícito de sus administradores es responsabilidad exclusiva del usuario final."recuerda la responsabilidad es de quien conduce el auto no de quien lo fabrica.metafora"
+
+## ⚠️ Descargo de Responsabilidad (Disclaimer)
+
+**IMPORTANTE:** Este software ("FISGON") ha sido desarrollado única y exclusivamente con fines educativos, de aprendizaje técnico, investigación de seguridad y auditorías autorizadas (Ethical Hacking / OSINT). 
+
+Al descargar, clonar, instalar o utilizar este repositorio, aceptas de forma expresa los siguientes términos:
+
+1. **Uso Bajo Propia Responsabilidad:** El uso de esta herramienta es responsabilidad absoluta y exclusiva del usuario final. El desarrollador no se hace responsable por ninguna acción ilegal, daños, interrupciones de servicio, pérdidas de datos o consecuencias derivadas del uso de este software.
+2. **Autorización Requerida:** Es responsabilidad del usuario asegurarse de que cuenta con el permiso explícito y por escrito de los administradores o propietarios de los sistemas e infraestructuras DNS antes de realizar cualquier tipo de análisis o auditoría con esta herramienta.
+3. **Cumplimiento Legal:** El usuario se compromete a respetar todas las leyes locales, nacionales e internacionales aplicables en materia de seguridad informática, privacidad y delitos cibernéticos en su jurisdicción.
+4. **Sin Garantías:** Este software se proporciona "tal cual" (AS IS), sin garantías de ningún tipo, explícitas o implícitas, sobre su funcionamiento, precisión o idoneidad para un propósito específico.
+
+El creador de este proyecto **NO promueve, NO apoya y NO se solidariza** con actividades de piratería informática, espionaje corporativo ni ataques informáticos de ninguna índole. Si tu intención es utilizar esta herramienta con fines maliciosos, destructivos o no autorizados, por favor abandona este repositorio inmediatamente.
+
